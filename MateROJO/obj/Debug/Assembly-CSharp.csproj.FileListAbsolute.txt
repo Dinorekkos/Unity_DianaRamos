@@ -1,0 +1,2 @@
+C:\Users\USER\Documents\Tareas\2 Semestre\AlgebraLineal\Unity\MateROJO\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Tareas\2 Semestre\AlgebraLineal\Unity\MateROJO\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
