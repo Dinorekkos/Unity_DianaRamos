@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Array1Marzo.unity
+- path: Assets/24deMarzo/24deMarzo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
