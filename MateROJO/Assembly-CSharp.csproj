@@ -37,10 +37,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Calculadora.cs" />
+     <Compile Include="Assets\24deMarzo\RubikCreator.cs" />
      <Compile Include="Assets\24deMarzo\CubeCreator.cs" />
      <Compile Include="Assets\23deMrzo\CubeMovement.cs" />
+     <Compile Include="Assets\Icosaedro\PseudoTriangle.cs" />
      <Compile Include="Assets\Script\MetodoCruzado.cs" />
-     <Compile Include="Assets\24deMarzo\RubikCreator.cs" />
+     <Compile Include="Assets\Icosaedro\CopyTriangle.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

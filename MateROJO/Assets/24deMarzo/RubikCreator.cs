@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class RubikCreator : MonoBehaviour
 {
-    
-    CubeCreator cubeCreatorScript;
+
     
     [SerializeField] GameObject rubikCube;
     [SerializeField] GameObject cubeRed;
-    [SerializeField] GameObject cubeBlue;
-    [SerializeField] GameObject cubeGreen;
-
     [SerializeField] GameObject[] cubesArray;
 
     void Start()
@@ -20,21 +16,10 @@ public class RubikCreator : MonoBehaviour
         {
             for (int y = 0; y < 3; y++)
             {  
-                 cubeCreatorScript = new CubeCreator();
-                 Instantiate(cubeRed);
-                 cubeRed.transform.position = new Vector3(0,y,z);
-                
-                for (int columBlue = 0; columBlue < 1; columBlue++)
+                for (int x = 0; x < 3; x++)
                 {
-                    cubeCreatorScript = new CubeCreator();
-                    Instantiate(cubeBlue);
-                    cubeBlue.transform.position = new Vector3(1,y,z);
-                } 
-                for (int columGreen = 0; columGreen < 1; columGreen++)
-                {
-                    cubeCreatorScript = new CubeCreator();
-                    Instantiate(cubeGreen);
-                    cubeGreen.transform.position = new Vector3(-1,y,z);
+                    Instantiate(cubeRed);
+                    cubeRed.transform.position = new Vector3(x,y,z);
                 }   
             }
         }
