@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/26deAbril/Rotaciones.unity
+- path: Assets/TokenMaldito/TokenMaldito.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

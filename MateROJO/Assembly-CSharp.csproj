@@ -36,14 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\TokenMaldito\Scripts\RotationBrujula.cs" />
      <Compile Include="Assets\Script\Calculadora.cs" />
      <Compile Include="Assets\Icosaedro\CopyTriangle.cs" />
+     <Compile Include="Assets\26deAbril\Rotation.cs" />
+     <Compile Include="Assets\26deAbril\NewRotation.cs" />
+     <Compile Include="Assets\TokenMaldito\Scripts\TokenObject.cs" />
      <Compile Include="Assets\24deMarzo\RubikCreator.cs" />
      <Compile Include="Assets\24deMarzo\CubeCreator.cs" />
+     <Compile Include="Assets\TokenMaldito\Scripts\test.cs" />
      <Compile Include="Assets\23deMrzo\CubeMovement.cs" />
      <Compile Include="Assets\Icosaedro\PseudoTriangle.cs" />
      <Compile Include="Assets\Script\MetodoCruzado.cs" />
-     <Compile Include="Assets\26deAbril\Rotation.cs" />
+     <Compile Include="Assets\TokenMaldito\Scripts\Token1.cs" />
+     <Compile Include="Assets\TokenMaldito\Scripts\Traslacion.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

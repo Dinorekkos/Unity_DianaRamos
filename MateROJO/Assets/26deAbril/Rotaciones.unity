@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
+  matriz: 0
   cube: {fileID: 367899902}
   angle: 6
 --- !u!23 &367899906
@@ -250,6 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
+  matriz: 0
   cube: {fileID: 1977340752}
   angle: 25
 --- !u!4 &375698155
@@ -312,6 +314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
+  matriz: 0
   cube: {fileID: 977970201}
   angle: 6
 --- !u!23 &977970205
@@ -409,6 +412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
+  matriz: 0
   cube: {fileID: 1095019029}
   angle: 6
 --- !u!23 &1095019033
@@ -682,6 +686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
+  matriz: 0
   cube: {fileID: 1420710523}
   angle: 6
 --- !u!23 &1420710527
@@ -941,6 +946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
+  matriz: 0
   cube: {fileID: 1780087876}
   angle: 6
 --- !u!23 &1780087880
@@ -1038,6 +1044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
+  matriz: 0
   cube: {fileID: 1825507860}
   angle: 6
 --- !u!23 &1825507864
@@ -1238,6 +1245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
+  matriz: 0
   cube: {fileID: 2011118518}
   angle: 6
 --- !u!23 &2011118522
@@ -1416,6 +1424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
+  matriz: 0
   cube: {fileID: 2139987912}
   angle: 6
 --- !u!23 &2139987916

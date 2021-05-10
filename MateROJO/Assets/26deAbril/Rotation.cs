@@ -15,8 +15,12 @@ public class Rotation : MonoBehaviour
     private float [,] xMatrix;
     private float [,] yMatrix;
     private float [,] zMatrix;
+    
+   
+
     [SerializeField] GameObject cube;
     [SerializeField] int angle;
+    [SerializeField] int delta;
 
     private void Start()     
     {
@@ -43,7 +47,9 @@ public class Rotation : MonoBehaviour
             {Mathf.Sin(angle),Mathf.Cos(angle),0,0},
             {0,0,1,0},
             {0,0,0,1}
-        };   
+        }; 
+
+        
     }
 
     void Update () 
@@ -106,6 +112,7 @@ public class Rotation : MonoBehaviour
             case AXIS.X:
                 y = (pos.y * Mathf.Cos(angle)) - (pos.z * Mathf.Sin(angle));
                 z = (pos.y * Mathf.Sin(angle)) + (pos.z * Mathf.Cos(angle));
+                Debug.Log(cube.transform.position);
             break;
 
             case AXIS.Y:
@@ -119,9 +126,7 @@ public class Rotation : MonoBehaviour
                 y = (pos.x * Mathf.Sin(angle)) + (pos.y * Mathf.Cos(angle));
 
             break;
-
         }
-
         cube.transform.position = new Vector3(x,y,z);
     }
 
@@ -153,10 +158,15 @@ public class Rotation : MonoBehaviour
                 y = (pos.x * zMatrix[0,1]) + (pos.y * zMatrix[1,1]);
             
             break;
-
         }
 
          cube.transform.position = new Vector3(x,y,z);
     }
+
+
+
+
+
+
      
 }

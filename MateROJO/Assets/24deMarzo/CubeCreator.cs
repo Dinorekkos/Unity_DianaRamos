@@ -17,8 +17,6 @@ public class CubeCreator : MonoBehaviour
         meshRenderer = gameObject.AddComponent<MeshRenderer>();
         meshRenderer.material =  material;
         meshFilter.mesh = mesh;
-
-
             
              vertex = new []
             {

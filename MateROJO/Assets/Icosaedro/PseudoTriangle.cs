@@ -22,7 +22,7 @@ public class PseudoTriangle : MonoBehaviour
 
         vertex = new []
         {
-            //triangulo2
+            //triangulo1
             new Vector3(1,0,0), //A-0
             new Vector3(2,0,0), //B-1
             new Vector3(1.5f,0.87f,0), //F-2
